@@ -1,0 +1,44 @@
+/* Base */
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Variantes */
+.primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.secondary {
+  background-color: #6b7280;
+  color: white;
+}
+
+.danger {
+  background-color: #dc2626;
+  color: white;
+}
+
+/* Tamaños */
+.small {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.medium {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.large {
+  padding: 15px 25px;
+  font-size: 18px;
+}
+
+/* Estado */
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
