@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <h2>Dashboard.</h2>
-      <p>Bienvenido {user.name} - Rol: {user.role}</p>
+      <p>Bienvenida {user.name} - Rol: {user.role}</p>
       <p>Sesion activa: {user.logged ? "Sí" : "No"}</p>
       <p>Sesion activa: {estado}</p>
 
